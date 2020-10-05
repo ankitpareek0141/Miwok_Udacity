@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Miwok_Udacity</string>
+    <string name="numbers">Numbers</string>
+    <string name="Family">Family Members</string>
+    <string name="Colors">Colors</string>
+    <string name="Phrases">Phrases</string>
+</resources>

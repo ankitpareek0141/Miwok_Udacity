@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f7d794"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNumbers"
+        android:padding="5dp"
+        android:text="@string/numbers"
+        android:textColor="#FFFFFF"
+        android:onClick="onClick"
+        android:background="@color/NumberColor"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFamily"
+        android:text="@string/Family"
+        android:textStyle="bold"
+        android:onClick="onClick"
+        android:background="@color/FamilyColor"
+        android:padding="5dp"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtColors"
+        android:text="@string/Colors"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:onClick="onClick"
+        android:background="#c44569"
+        android:padding="5dp"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPhrases"
+        android:text="@string/Phrases"
+        android:textStyle="bold"
+        android:onClick="onClick"
+        android:padding="5dp"
+        android:textColor="#FFFFFF"
+        android:background="#3dc1d3"
+        android:textSize="25sp"/>
+
+</LinearLayout>
